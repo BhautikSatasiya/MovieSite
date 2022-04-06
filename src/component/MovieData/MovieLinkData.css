@@ -1,0 +1,76 @@
+/* .img_file_input {
+  display: flex;
+  justify-content: center;
+}
+.download_link_div {
+  display: flex;
+  justify-content: center;
+} */
+.data-file {
+  width: 60% !important;
+  margin: 90px auto !important;
+  /* background-color: #a55c1b !important; */
+  padding: 30px 50px;
+  border-radius: 50px;
+  box-shadow: 0  0 1.5rem 0 rgba(255, 255, 255, 0.534); 
+  color: rgba(255, 255, 255, 0.74) ;
+
+
+}
+.data-file:before{
+  box-shadow: inset 0 0 20000px rgba(255, 255, 255, .5);
+  filter: blur(50px);
+  margin: -20px;
+}
+.data-file .form-group {
+  margin: 10px 0;
+}
+.data-file h2 {
+  margin: 15px 0 16px 0;
+}
+.data-file .form-group button.btn.btn-primary {
+  padding: 10px 55px;
+  text-transform: uppercase;
+  color: #00ffff;
+}
+.data-file .form-group label {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.data-file .form-group input {
+  width: 80%;
+  margin: 10px auto;
+}
+.admin_button {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+table,
+th,
+td {
+  border: 1px solid black !important;
+}
+.table_content {
+  justify-content: center;
+  display: flex;
+}
+
+.add_data_btn
+{
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255); 
+  color: black; 
+  border: 3px solid #a55c1b;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.add_data_btn:hover{
+  background-color: #a55c1b;
+  color: white;
+}
+.admin_data
+{
+  float: right !important;
+  margin-right: 10px;
+}
